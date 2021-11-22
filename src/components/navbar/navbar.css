@@ -1,0 +1,218 @@
+.navbar {
+       width: 100%;
+       height: 606px;
+       background-image: url('../../assets//images/Rectangle.png');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       /* display: flex;
+       flex-direction: column; */
+}
+
+.navbar-header {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+
+.header-left ul {
+       list-style: none;
+       display: flex;
+       align-items: center;
+       margin-top: 38px;
+}
+
+.header-left ul .logo {
+       margin-left: 20px;
+       font-size: 27px;
+       color: #fff;
+       font-family: "Poppins";
+       cursor: pointer;
+}
+
+.header-left ul .list_item {
+       margin-left: 25px;
+       font-family: "Roboto";
+       color: #FFFEF2;
+       cursor: pointer;
+}
+
+.header-right ul .list_items {
+       margin-right: 25px;
+       font-family: "Roboto";
+       color: #FFFEF2;
+       cursor: pointer;
+}
+
+.header-right ul {
+       list-style: none;
+       display: flex;
+       align-items: center;
+       margin-top: 38px;
+}
+
+.header-right span {
+       color: #fff;
+       font-size: 20px;
+       display: none;
+       margin-left: 5px;
+}
+
+.header-right ul .list_item {
+       margin-right: 30px;
+       font-family: "Roboto";
+       color: #FFFEF2;
+       cursor: pointer;
+}
+
+.navbar-body {
+       position: absolute;
+       margin-left: 200px;
+}
+
+.navbar-body .navbar-body-title {
+       margin-top: 138px;
+}
+
+.navbar-body .navbar-body-title p {
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 30px;
+       line-height: 40px;
+       color: #FFFEF2;
+}
+
+.navbar-body .navbar-body-desc {
+       margin-top: 16px;
+}
+
+.navbar-body .navbar-body-desc p {
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 27px;
+       color: #FFFEF2;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+       .navbar {
+              width: 100%;
+              height: 606px;
+       }
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+       .navbar {
+              width: 100%;
+              height: 606px;
+       }
+       .navbar-body {
+              margin-left: 150px;
+       }
+       .navbar-header {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+       }
+       .header-left ul .logo {
+              margin-left: 10px;
+       }
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+       .navbar {
+              /* display: none; */
+              width: 100%;
+              height: 606px;
+       }
+       .navbar-body {
+              margin-left: 120px;
+       }
+       .navbar-header {
+              width: 100%;
+              display: flex;
+              align-items: center;
+       }
+       .header-left ul .logo {
+              margin-left: 20px;
+              font-size: 30px;
+       }
+       .header-right span {
+              display: block;
+              margin-right: 20px;
+       }
+       .navbar-body .navbar-body-title p {
+              font-size: 25px;
+              line-height: 30px;
+              color: #FFFEF2;
+       }
+       .navbar-body .navbar-body-desc p {
+              font-size: 14px;
+              line-height: 24px;
+       }
+       .d-none {
+              display: none !important;
+       }
+       .header-left ul li {
+              font-size: 17px;
+       }
+       .header-right ul li {
+              font-size: 17px;
+       }
+       .header-left ul li {
+              font-size: 17px;
+       }
+}
+
+@media screen and (max-width: 575.9px) {
+       .navbar {
+              width: 100%;
+              height: 550px;
+              display: flex;
+              flex-direction: column;
+       }
+       .navbar-body {
+              margin-left: 50px;
+       }
+       .navbar-header {
+              width: 100%;
+              display: flex;
+              align-items: center;
+       }
+       .header-left ul .logo {
+              margin-left: 10px;
+              font-size: 23px;
+       }
+       .header-right span {
+              display: block;
+              margin-right: 10px;
+       }
+       .header-left ul li {
+              font-size: 12px;
+       }
+       .navbar-body .navbar-body-title p {
+              font-size: 20px;
+              line-height: 20px;
+              color: #FFFEF2;
+       }
+       .navbar-body .navbar-body-desc p {
+              font-size: 13px;
+              line-height: 20px;
+       }
+       .d-none {
+              display: none !important;
+       }
+       .header-right ul .list_items {
+              display: none;
+       }
+       .xmark {
+              color: #fff;
+              font-size: 20px;
+              /* display: none; */
+              margin-left: 5px;
+       }
+}

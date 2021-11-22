@@ -1,0 +1,332 @@
+.body_one {
+       width: 100%;
+       height: 720px;
+       display: flex;
+       flex-wrap: wrap;
+       margin-bottom: 70px;
+}
+
+.body-one-left {
+       flex: 1;
+}
+
+.body-one-left img {
+       width: 100%;
+       height: 100%;
+}
+
+.body-one-right {
+       flex: 1;
+       background-image: url('../../assets/images/Rectangle\ \(2\).png');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+}
+
+.body-one-logo {
+       width: 73px;
+       height: 19px;
+       margin-left: 510px;
+       margin-top: 25px;
+}
+
+.body-one-logo span {
+       color: #333333;
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 19px;
+       border-bottom: 1px solid #333;
+       cursor: pointer;
+}
+
+.body-slupt {
+       display: flex;
+       margin-top: 160px;
+}
+
+.body-slupt .slupt-img {
+       margin-top: 80px;
+}
+
+.body-slupt .slupt-info {
+       margin-top: 20px;
+}
+
+.body-slupt .slupt-info h3 {
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 28px;
+       line-height: 40px;
+       color: #333333;
+}
+
+.body-slupt .slupt-info .p1 {
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 15px;
+       line-height: 26px;
+       color: #333333;
+}
+
+.body-slupt .slupt-info .p2 {
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 22px;
+       color: #333333;
+       margin-top: 21px;
+}
+
+.body-slupt .slupt-info .btn1 {
+       width: 100%;
+       height: 60px;
+       background: #333333;
+       border: 1px solid #333333;
+       box-sizing: border-box;
+       margin-top: 30px;
+       cursor: pointer;
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 14px;
+       text-align: center;
+       color: #F6F5E8;
+}
+
+.body-slupt .slupt-info .btn2 {
+       width: 100%;
+       height: 60px;
+       background: #CFC7C0;
+       border: 1px solid #b8b4b4;
+       box-sizing: border-box;
+       margin-top: 20px;
+       cursor: pointer;
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 14px;
+       text-align: center;
+       color: #F6F5E8;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+       .body_one {
+              width: 100%;
+              height: 720px;
+              display: flex;
+              flex-direction: column;
+       }
+       .body-one-left {
+              width: 50%;
+       }
+       .body-one-right {
+              width: 50%;
+       }
+       .body-one-logo {
+              width: 73px;
+              height: 19px;
+              margin-left: 400px;
+              margin-top: 25px;
+       }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+       .body_one {
+              width: 100%;
+              height: 400px;
+              display: flex;
+              flex-direction: column;
+       }
+       .body-one-left {
+              width: 50%;
+              height: 100%;
+       }
+       .body-one-left img {
+              width: 100%;
+              height: 100%;
+       }
+       .body-one-right {
+              width: 50%;
+              height: 100%;
+       }
+       .body-one-logo {
+              width: 73px;
+              height: 19px;
+              margin-left: 310px;
+       }
+       .body-slupt {
+              display: flex;
+              margin-top: 0px;
+       }
+       .body-slupt .slupt-img {
+              display: none;
+       }
+       .body-slupt .slupt-info .p2 {
+              font-size: 13px;
+              margin-top: 17px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info h3 {
+              font-size: 25px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info {
+              margin-top: 0px;
+       }
+       .body-slupt .slupt-info .btn1 {
+              margin-top: 10px;
+              width: 90%;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info .p1 {
+              font-size: 14px;
+              line-height: 24px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info .btn2 {
+              margin-top: 20px;
+              width: 90%;
+              margin-left: 5%;
+       }
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+       .body_one {
+              width: 100%;
+              height: 400px;
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 100px;
+       }
+       .body-one-left {
+              display: none;
+              width: 100%;
+              height: 110%;
+              /* position: absolute; */
+       }
+       .body-one-left img {
+              width: 100%;
+              height: 110%;
+       }
+       .body-one-right {
+              width: 100%;
+              height: 100%;
+              /* position: absolute; */
+       }
+       .body-one-logo {
+              width: 73px;
+              height: 19px;
+              margin-left: 310px;
+       }
+       .body-slupt {
+              display: flex;
+              margin-top: 0px;
+       }
+       .body-slupt .slupt-img {
+              display: none;
+       }
+       .body-slupt .slupt-info .p2 {
+              font-size: 13px;
+              margin-top: 17px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info h3 {
+              font-size: 25px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info {
+              margin-top: 0px;
+       }
+       .body-slupt .slupt-info .btn1 {
+              margin-top: 10px;
+              width: 90%;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info .p1 {
+              font-size: 14px;
+              line-height: 24px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info .btn2 {
+              margin-top: 20px;
+              width: 90%;
+              margin-left: 5%;
+       }
+}
+
+@media screen and (max-width: 575.9px) {
+       .body_one {
+              width: 100%;
+              height: 400px;
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 100px;
+       }
+       .body-one-left {
+              display: none;
+              width: 100%;
+              height: 110%;
+       }
+       .body-one-left img {
+              width: 100%;
+              height: 110%;
+       }
+       .body-one-right {
+              width: 100%;
+              height: 100%;
+       }
+       .body-one-logo {
+              width: 65px;
+              height: 17px;
+              margin-left: 280px;
+       }
+       .body-slupt {
+              display: flex;
+              margin-top: 0px;
+       }
+       .body-slupt .slupt-img {
+              display: none;
+       }
+       .body-slupt .slupt-info .p2 {
+              font-size: 12px;
+              margin-top: 17px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info h3 {
+              font-size: 23px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info {
+              margin-top: 0px;
+       }
+       .body-slupt .slupt-info .btn1 {
+              margin-top: 10px;
+              width: 80%;
+              margin-left: 5%;
+              height: 45px;
+              font-size: 15px;
+       }
+       .body-slupt .slupt-info .p1 {
+              font-size: 14px;
+              line-height: 24px;
+              margin-left: 5%;
+       }
+       .body-slupt .slupt-info .btn2 {
+              margin-top: 20px;
+              width: 80%;
+              margin-left: 5%;
+              height: 45px;
+              font-size: 15px;
+       }
+}

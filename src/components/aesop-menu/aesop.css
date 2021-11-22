@@ -1,0 +1,224 @@
+.aesop_menu {
+       width: 100%;
+       display: flex;
+}
+
+.aesop_title {
+       flex: 2;
+       display: flex;
+       flex-direction: column;
+       margin-left: 80px;
+}
+
+.aesop_title .vC1 {
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 24px;
+       color: #333333;
+}
+
+.aesop_title .vC2 {
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 27px;
+       /* or 170% */
+       color: #333333;
+       margin-top: 27px;
+}
+
+.aesop_title h3 {
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 30px;
+       line-height: 40px;
+       color: #333333;
+       margin-top: 24px;
+}
+
+.aesop_title button {
+       width: 300px;
+       height: 60px;
+       margin-top: 26px;
+       background: #FFFEF2;
+       font-family: "Roboto";
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 20px;
+       color: #333333;
+       cursor: pointer;
+       border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.aesop_img {
+       flex: 3;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       object-fit: cover;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+       .aesop_menu {
+              width: 100%;
+              display: flex;
+       }
+       .aesop_title {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              margin-left: 60px;
+       }
+       .aesop_img {
+              flex: 2;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              object-fit: cover;
+       }
+       .aesop_img img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+       }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+       .aesop_menu {
+              width: 100%;
+              display: flex;
+       }
+       .aesop_title {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              margin-left: 40px;
+       }
+       .aesop_title .vC1 {
+              font-size: 13px;
+       }
+       .aesop_title .vC2 {
+              font-size: 15px;
+              line-height: 24px;
+              margin-top: 20px;
+       }
+       .aesop_title h3 {
+              font-size: 26px;
+              line-height: 35px;
+              margin-top: 22px;
+       }
+       .aesop_img {
+              flex: 2;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              object-fit: cover;
+       }
+       .aesop_title button {
+              width: 250px;
+              height: 55px;
+              margin-top: 22px;
+       }
+       .aesop_img img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+       }
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+       .aesop_menu {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+       }
+       .aesop_title {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              margin-left: 20px;
+       }
+       .aesop_title .vC1 {
+              font-size: 13px;
+       }
+       .aesop_title .vC2 {
+              font-size: 15px;
+              line-height: 20px;
+              margin-top: 20px;
+       }
+       .aesop_title h3 {
+              font-size: 26px;
+              line-height: 35px;
+              margin-top: 22px;
+       }
+       .aesop_img {
+              flex: 2;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              object-fit: cover;
+       }
+       .aesop_title button {
+              width: 200px;
+              height: 40px;
+              margin-top: 20px;
+              margin-bottom: 10px;
+       }
+       .aesop_img img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+       }
+}
+
+@media screen and (max-width: 575.9px) {
+       .aesop_menu {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              margin-top: 80px;
+       }
+       .aesop_title {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              margin-left: 15px;
+       }
+       .aesop_title .vC1 {
+              font-size: 13px;
+       }
+       .aesop_title .vC2 {
+              font-size: 14px;
+              line-height: 17px;
+              margin-top: 15px;
+       }
+       .aesop_title h3 {
+              font-size: 24px;
+              line-height: 30px;
+              margin-top: 20px;
+       }
+       .aesop_img {
+              flex: 2;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              object-fit: cover;
+       }
+       .aesop_title button {
+              width: 200px;
+              height: 40px;
+              margin-top: 20px;
+              margin-bottom: 20px;
+              font-size: 15px;
+       }
+       .aesop_img img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+       }
+}
